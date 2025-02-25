@@ -25,25 +25,40 @@ option1.addEventListener("click", scene3)
 function scene3() {
     p1.textContent = "You have chosen the great Flame Sword Salamandra"
     option1.removeEventListener("click", scene3)
+    option2.removeEventListener("click", scene4)
+    option3.removeEventListener("click", scene5)
+    option4.removeEventListener("click", scene6)
 }
 
 option2.addEventListener("click", scene4)
 function scene4() {
     p1.textContent = "You have chosen the The Gauntlets of Terrah Kah"
+    option1.removeEventListener("click", scene3)
     option2.removeEventListener("click", scene4)
+    option3.removeEventListener("click", scene5)
+    option4.removeEventListener("click", scene6)
 }
 
 option3.addEventListener("click", scene5)
 function scene5() {
     p1.textContent = "You have chosen The Fan that Carves Canyons"
+    option1.removeEventListener("click", scene3)
+    option2.removeEventListener("click", scene4)
     option3.removeEventListener("click", scene5)
+    option4.removeEventListener("click", scene6)
 }
 
 option4.addEventListener("click", scene6)
 function scene6() {
     p1.textContent = "You have chosen The Decanter of Endless Water"
+    option1.removeEventListener("click", scene3)
+    option2.removeEventListener("click", scene4)
+    option3.removeEventListener("click", scene5)
     option4.removeEventListener("click", scene6)
 }
+
+
+
 
 
 
