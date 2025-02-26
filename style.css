@@ -1,4 +1,4 @@
-#img1 {
+img {
     display: block;
     margin: auto;
     width: 200px;
@@ -6,26 +6,19 @@
     align-items: center;
 }
 
-#img2 {
+
+p {
     display: block;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    align-items: center;
+    margin: 10px;
+    text-align: center;
+    white-space: pre-wrap;
 }
 
-#img3 {
-    display: block;
+button {
+    display: inline;
     margin: auto;
-    width: 200px;
-    height: 200px;
-    align-items: center;
 }
 
-#img4 {
-    display: block;
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    align-items: center;
+h1 {
+    text-align: center;
 }
