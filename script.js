@@ -1,8 +1,10 @@
+//Declaring variables that correspond with each of my paragraph elements p1, p2, p3, and p4
 const p1 = document.getElementById("p1")
 const p2 = document.getElementById("p2")
 const p3 = document.getElementById("p3")
 const p4 = document.getElementById("p4")
 
+//Declaring variables that correspond with each of my button elements
 const option1 = document.getElementById("option1")
 const option2 = document.getElementById("option2")
 const option3 = document.getElementById("option3")
